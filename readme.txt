@@ -251,7 +251,7 @@ Step3: Enter the userId in the input box
 Step4: Click on execute button below
 Step5: Scroll down for seeing the O/P in the response body section
 
-#API FOR DELETING USER BY USER ID (NOTE: ONLY ADMIN CAN DELETE A USER NORMA USER CANNOT DELETE A USER)
+#API FOR DELETING USER BY USER ID (NOTE: ONLY ADMIN CAN DELETE A USER NORMAL USER CANNOT DELETE A USER)
 Step1: Go to /api/users/{userId} => deleteUser
 Step2: Click on try it out
 Step3: Enter the userId in the input box
