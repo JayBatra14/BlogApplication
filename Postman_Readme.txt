@@ -6,7 +6,8 @@
 * They can also delete the categories, posts and comments.
 * Only the Admin user can delete the user from the application.
 
-STEPS TO USE THIS APPLICATION:
+********************* STEPS TO USE THIS APPLICATION IN YOUR LOCAL SYSTEM ****************************
+
 STEP1: DOWNLOAD THE ZIP FILE FROM THE REPOSITORY BY CLICKING ON CODE BUTTON
 STEP2: UNZIP THE DOWNLOADED FILE AND THEN IMPORT THE APPLICATION IN YOUR PREFERRED IDE 
 STEP3: CREATE A DATABASE IN MYSQL WITH NAME AS blog_app_apis

@@ -1,7 +1,7 @@
 ********************************** ABOUT THE BLOG APP APPLICATION **********************************
 
 TO ACCESS MY APPLICATION USE THE BELOW URL:
-URL=> https://blogapp-env.eba-auwp6y3p.us-west-2.elasticbeanstalk.com/swagger-ui/index.html 
+URL=> http://ec2-54-172-45-97.compute-1.amazonaws.com/swagger-ui/index.html#/
 
 * This app is created for the users so that they can register in out app and interact with other users.
 * The users can create categories create posts and can also comment on other user's post
@@ -9,7 +9,8 @@ URL=> https://blogapp-env.eba-auwp6y3p.us-west-2.elasticbeanstalk.com/swagger-ui
 * They can also delete the categories, posts and comments.
 * Only the Admin user can delete the user from the application.
 
-STEPS TO USE THIS APPLICATION:
+********************* STEPS TO USE THIS APPLICATION IN YOUR LOCAL SYSTEM ****************************
+
 STEP1: DOWNLOAD THE ZIP FILE FROM THE REPOSITORY BY CLICKING ON CODE BUTTON
 STEP2: UNZIP THE DOWNLOADED FILE AND THEN IMPORT THE APPLICATION IN YOUR PREFERRED IDE 
 STEP3: CREATE A DATABASE IN MYSQL WITH NAME AS blog_app_apis

@@ -49,7 +49,7 @@ public class UserServiceImpl implements UserService {
 	public UserDto updateUser(UserDto userDto, Integer userId) {
 		User user = userRepo.findById(userId).orElseThrow(()->new ResourceNotFoundException("User", "Id", userId));
 		user.setName(userDto.getName());
-		user.setEmail(userDto.getEmail());
+		//user.setEmail(userDto.getEmail());
 		user.setAbout(userDto.getAbout());
 		Set<RoleDto> roleDtos = userDto.getRoles();
 		Set<Role> newRoles = roleDtos.stream().map((role) -> modelMapper.map(role, Role.class)).collect(Collectors.toSet());
